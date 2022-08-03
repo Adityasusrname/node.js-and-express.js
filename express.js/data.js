@@ -26,4 +26,13 @@ const employees = [
 
 ]
 
-module.exports={employees}
+const people = [
+{id:1,name:'Aditya'},
+{id:2,name:'Ravi'},
+{id:3,name:'Apoorv'},
+{id:4,name:'Ashwani'}
+
+
+]
+
+module.exports={employees,people}
