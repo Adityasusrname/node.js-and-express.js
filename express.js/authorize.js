@@ -6,6 +6,10 @@ console.log(req.query)
 
 if(user === 'Aditya'){
 
+    req.user={name:'Aditya'}
+
+    //Token is given
+
 next()
 
 }
