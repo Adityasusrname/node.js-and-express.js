@@ -15,6 +15,8 @@ res.send('Home Page!')
 
 app.get('/query',(req,res)=>{
 
+    console.log(req.user)
+
 res.send('Hello!')
 
 
